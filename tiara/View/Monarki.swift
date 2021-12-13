@@ -6,26 +6,7 @@ import Foundation
 import SwiftUI
 import WebKit
 
-class WKWebViewWrapper: NSObject, WKScriptMessageHandler {
-    @State var result: String = ""
-    private let wkWebView: WKWebView
-
-    init(forWebView webView: WKWebView) {
-        wkWebView = webView
-        super.init()
-    }
-
-    func setup() {
-        wkWebView.configuration.userContentController.add(self, name: "scriptHandler")
-    }
-
-    func userContentController(_ userContentController: WKUserContentController, didReceive message: WKScriptMessage) {
-        print("Message received: \(message.name) with body: \(message.body)")
-        result = "\(message.body)"
-    }
-}
-
-struct WebViewString: NSViewRepresentable {
+struct Monarki: NSViewRepresentable {
     @Binding var text: String
     private let url = Bundle.main.url(forResource: "index", withExtension: "html", subdirectory: "base-static")!
 
@@ -64,18 +45,4 @@ struct WebViewString: NSViewRepresentable {
             }
         }
     }
-}
-
-struct WebViewLocal: NSViewRepresentable {
-    let url = Bundle.main.url(forResource: "index", withExtension: "html", subdirectory: "static")!
-
-    func makeNSView(context: Context) -> WKWebView {
-        let webView = WKWebView()
-        return webView
-    }
-
-    func updateNSView(_ uiView: WKWebView, context: Context) {
-        uiView.loadFileURL(url, allowingReadAccessTo: url)
-    }
-
 }

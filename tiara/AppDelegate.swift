@@ -38,8 +38,4 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             }
         }
     }
-
-    func closeMe() {
-        print("closing...")
-    }
 }

@@ -8,13 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		4D3080724DC819FA453AF488 /* base-static in Resources */ = {isa = PBXBuildFile; fileRef = 4D308DD588CA08CD89B245AA /* base-static */; };
-		4D30875A4B5FA11867AB848E /* static in Resources */ = {isa = PBXBuildFile; fileRef = 4D3083749B6BA46BF5EA3F25 /* static */; };
+		4D3085402FA915B3333190B8 /* WKWebViewWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D308B8DFC323DE6573A0584 /* WKWebViewWrapper.swift */; };
 		4D308A558E2BE470A7A7A7BF /* TextContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D308B9C1435266D33278743 /* TextContainer.swift */; };
 		4D308A6CCDB7B17C07894B4B /* tiaraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3084480FC86F42E9A6BB24 /* tiaraUITests.swift */; };
 		4D308AA81F0531B029FFFD66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D308BA81A96BA6F65DD3F85 /* Assets.xcassets */; };
 		4D308B87656D2B8E6FABA0A8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D30846DEA546043DBA6D20D /* ContentView.swift */; };
-		4D308C3950C70666B09A7C02 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3084EF67DE7BB18772EE3B /* WebView.swift */; };
+		4D308C03E3FD57250DBCA19E /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 4D308C885DEA03B41ABB0E78 /* README.md */; };
+		4D308C3950C70666B09A7C02 /* Monarki.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3084EF67DE7BB18772EE3B /* Monarki.swift */; };
 		4D308C4CD8AD2BA882A76596 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D308A82FEBD82D63DA5BEE7 /* AppDelegate.swift */; };
+		4D308C989726F74F1174AD5C /* tiara.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D308B14BB6140F9119905FD /* tiara.png */; };
 		4D308CE6327BD7085CE24D37 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D3088D74D800AED1DC7C6B1 /* Preview Assets.xcassets */; };
 		4D308CF3D4AF3E2611A4F99B /* EditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3081C539259260E746F45A /* EditorView.swift */; };
 		4D308DC64D61985714AB2DDD /* tiaraUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3081A3F3B8108E89E5A66E /* tiaraUITestsLaunchTests.swift */; };
@@ -45,20 +47,22 @@
 		4D3081C539259260E746F45A /* EditorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditorView.swift; sourceTree = "<group>"; };
 		4D308203F9F84B2E1089CDBF /* tiaraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tiaraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D30831F420B32DD59FE0E29 /* tiara.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = tiara.entitlements; sourceTree = "<group>"; };
-		4D3083749B6BA46BF5EA3F25 /* static */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = folder; path = static; sourceTree = "<group>"; };
 		4D3084480FC86F42E9A6BB24 /* tiaraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tiaraUITests.swift; sourceTree = "<group>"; };
 		4D30846DEA546043DBA6D20D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4D3084D94A553B866BD39201 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
-		4D3084EF67DE7BB18772EE3B /* WebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WebView.swift; path = View/WebView.swift; sourceTree = "<group>"; };
+		4D3084EF67DE7BB18772EE3B /* Monarki.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Monarki.swift; path = View/Monarki.swift; sourceTree = "<group>"; };
 		4D30855E2EDF7A92D3354DA3 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		4D3085E39E168958E6AC02DE /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = file.gitignore; path = .gitignore; sourceTree = "<group>"; };
 		4D3087C61266539C56254389 /* tiara.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tiara.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D3088D74D800AED1DC7C6B1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4D30891F8A836112876D574D /* index.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = index.css; sourceTree = "<group>"; };
 		4D308A82FEBD82D63DA5BEE7 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4D308B14BB6140F9119905FD /* tiara.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tiara.png; sourceTree = "<group>"; };
+		4D308B8DFC323DE6573A0584 /* WKWebViewWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WKWebViewWrapper.swift; path = View/WKWebViewWrapper.swift; sourceTree = "<group>"; };
 		4D308B9C1435266D33278743 /* TextContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextContainer.swift; sourceTree = "<group>"; };
 		4D308BA81A96BA6F65DD3F85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D308BE622D4CB7A787C0741 /* tiaraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tiaraApp.swift; sourceTree = "<group>"; };
+		4D308C885DEA03B41ABB0E78 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4D308DD588CA08CD89B245AA /* base-static */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = folder; path = "base-static"; sourceTree = "<group>"; };
 		4D308F098465E14B7BA7A643 /* tiaraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tiaraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D308FF336A56C3E763A6FC1 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
@@ -147,9 +151,9 @@
 				4D308B9C1435266D33278743 /* TextContainer.swift */,
 				4D308243953E44642350C1B1 /* static */,
 				4D308DD588CA08CD89B245AA /* base-static */,
-				4D3083749B6BA46BF5EA3F25 /* static */,
 				4D308A82FEBD82D63DA5BEE7 /* AppDelegate.swift */,
-				4D3084EF67DE7BB18772EE3B /* WebView.swift */,
+				4D3084EF67DE7BB18772EE3B /* Monarki.swift */,
+				4D308B8DFC323DE6573A0584 /* WKWebViewWrapper.swift */,
 			);
 			path = tiara;
 			sourceTree = "<group>";
@@ -162,6 +166,8 @@
 				4D3080F77EFD24CCAD1F4395 /* tiaraTests */,
 				4D3083D96751BB26114ABD93 /* tiaraUITests */,
 				4D3085E39E168958E6AC02DE /* .gitignore */,
+				4D308B14BB6140F9119905FD /* tiara.png */,
+				4D308C885DEA03B41ABB0E78 /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -270,7 +276,7 @@
 				4D308AA81F0531B029FFFD66 /* Assets.xcassets in Resources */,
 				4D308CE6327BD7085CE24D37 /* Preview Assets.xcassets in Resources */,
 				4D3080724DC819FA453AF488 /* base-static in Resources */,
-				4D30875A4B5FA11867AB848E /* static in Resources */,
+				4D308C989726F74F1174AD5C /* tiara.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,7 +292,9 @@
 				4D308CF3D4AF3E2611A4F99B /* EditorView.swift in Sources */,
 				4D308A558E2BE470A7A7A7BF /* TextContainer.swift in Sources */,
 				4D308C4CD8AD2BA882A76596 /* AppDelegate.swift in Sources */,
-				4D308C3950C70666B09A7C02 /* WebView.swift in Sources */,
+				4D308C3950C70666B09A7C02 /* Monarki.swift in Sources */,
+				4D3085402FA915B3333190B8 /* WKWebViewWrapper.swift in Sources */,
+				4D308C03E3FD57250DBCA19E /* README.md in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
