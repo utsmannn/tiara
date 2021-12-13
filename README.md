@@ -2,4 +2,4 @@
 
 monaco wrapper for swiftui
 
-![/tiara.png]
+![](/tiara.png)
