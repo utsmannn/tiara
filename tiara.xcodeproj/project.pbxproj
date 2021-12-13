@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D3080724DC819FA453AF488 /* base-static in Resources */ = {isa = PBXBuildFile; fileRef = 4D308DD588CA08CD89B245AA /* base-static */; };
+		4D30875A4B5FA11867AB848E /* static in Resources */ = {isa = PBXBuildFile; fileRef = 4D3083749B6BA46BF5EA3F25 /* static */; };
+		4D308A558E2BE470A7A7A7BF /* TextContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D308B9C1435266D33278743 /* TextContainer.swift */; };
+		4D308A6CCDB7B17C07894B4B /* tiaraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3084480FC86F42E9A6BB24 /* tiaraUITests.swift */; };
+		4D308AA81F0531B029FFFD66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D308BA81A96BA6F65DD3F85 /* Assets.xcassets */; };
+		4D308B87656D2B8E6FABA0A8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D30846DEA546043DBA6D20D /* ContentView.swift */; };
+		4D308C3950C70666B09A7C02 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3084EF67DE7BB18772EE3B /* WebView.swift */; };
+		4D308C4CD8AD2BA882A76596 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D308A82FEBD82D63DA5BEE7 /* AppDelegate.swift */; };
+		4D308CE6327BD7085CE24D37 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D3088D74D800AED1DC7C6B1 /* Preview Assets.xcassets */; };
+		4D308CF3D4AF3E2611A4F99B /* EditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3081C539259260E746F45A /* EditorView.swift */; };
+		4D308DC64D61985714AB2DDD /* tiaraUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3081A3F3B8108E89E5A66E /* tiaraUITestsLaunchTests.swift */; };
+		4D308DEF8AEF7D2A69A35FCB /* tiaraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3080D1457A8172C41CC783 /* tiaraTests.swift */; };
+		4D308F04E7A2B104C1E502D5 /* tiaraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D308BE622D4CB7A787C0741 /* tiaraApp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D30823ACE34F24E49A4C841 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D308DCAA8FF1C06407D2EE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D308C8B185247E17473CBD7;
+			remoteInfo = tiara;
+		};
+		4D30878934E0DB3E2462AACD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D308DCAA8FF1C06407D2EE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D308C8B185247E17473CBD7;
+			remoteInfo = tiara;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4D3080D1457A8172C41CC783 /* tiaraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tiaraTests.swift; sourceTree = "<group>"; };
+		4D3081A3F3B8108E89E5A66E /* tiaraUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tiaraUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4D3081C539259260E746F45A /* EditorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditorView.swift; sourceTree = "<group>"; };
+		4D308203F9F84B2E1089CDBF /* tiaraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tiaraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D30831F420B32DD59FE0E29 /* tiara.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = tiara.entitlements; sourceTree = "<group>"; };
+		4D3083749B6BA46BF5EA3F25 /* static */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = folder; path = static; sourceTree = "<group>"; };
+		4D3084480FC86F42E9A6BB24 /* tiaraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tiaraUITests.swift; sourceTree = "<group>"; };
+		4D30846DEA546043DBA6D20D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4D3084D94A553B866BD39201 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		4D3084EF67DE7BB18772EE3B /* WebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WebView.swift; path = View/WebView.swift; sourceTree = "<group>"; };
+		4D30855E2EDF7A92D3354DA3 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		4D3085E39E168958E6AC02DE /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = file.gitignore; path = .gitignore; sourceTree = "<group>"; };
+		4D3087C61266539C56254389 /* tiara.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tiara.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D3088D74D800AED1DC7C6B1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4D30891F8A836112876D574D /* index.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = index.css; sourceTree = "<group>"; };
+		4D308A82FEBD82D63DA5BEE7 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4D308B9C1435266D33278743 /* TextContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextContainer.swift; sourceTree = "<group>"; };
+		4D308BA81A96BA6F65DD3F85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D308BE622D4CB7A787C0741 /* tiaraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tiaraApp.swift; sourceTree = "<group>"; };
+		4D308DD588CA08CD89B245AA /* base-static */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = folder; path = "base-static"; sourceTree = "<group>"; };
+		4D308F098465E14B7BA7A643 /* tiaraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tiaraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D308FF336A56C3E763A6FC1 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D30853DAA25A36EB19B376D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D308812D95ADF4E05E0B872 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D308852183158B537F177A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D3080F77EFD24CCAD1F4395 /* tiaraTests */ = {
+			isa = PBXGroup;
+			children = (
+				4D3080D1457A8172C41CC783 /* tiaraTests.swift */,
+			);
+			path = tiaraTests;
+			sourceTree = "<group>";
+		};
+		4D308243953E44642350C1B1 /* static */ = {
+			isa = PBXGroup;
+			children = (
+				4D30855E2EDF7A92D3354DA3 /* icon.png */,
+				4D30891F8A836112876D574D /* index.css */,
+				4D308FF336A56C3E763A6FC1 /* index.html */,
+			);
+			path = static;
+			sourceTree = SOURCE_ROOT;
+		};
+		4D3083D96751BB26114ABD93 /* tiaraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4D3084480FC86F42E9A6BB24 /* tiaraUITests.swift */,
+				4D3081A3F3B8108E89E5A66E /* tiaraUITestsLaunchTests.swift */,
+			);
+			path = tiaraUITests;
+			sourceTree = "<group>";
+		};
+		4D3084E9FF3384EB54E3F6E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D3087C61266539C56254389 /* tiara.app */,
+				4D308203F9F84B2E1089CDBF /* tiaraTests.xctest */,
+				4D308F098465E14B7BA7A643 /* tiaraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D3085353B6BC84655308B21 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4D3088D74D800AED1DC7C6B1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4D3088E29D0F1DF2233300DD /* tiara */ = {
+			isa = PBXGroup;
+			children = (
+				4D308BA81A96BA6F65DD3F85 /* Assets.xcassets */,
+				4D30831F420B32DD59FE0E29 /* tiara.entitlements */,
+				4D3085353B6BC84655308B21 /* Preview Content */,
+				4D308BE622D4CB7A787C0741 /* tiaraApp.swift */,
+				4D30846DEA546043DBA6D20D /* ContentView.swift */,
+				4D3084D94A553B866BD39201 /* Info.plist */,
+				4D3081C539259260E746F45A /* EditorView.swift */,
+				4D308B9C1435266D33278743 /* TextContainer.swift */,
+				4D308243953E44642350C1B1 /* static */,
+				4D308DD588CA08CD89B245AA /* base-static */,
+				4D3083749B6BA46BF5EA3F25 /* static */,
+				4D308A82FEBD82D63DA5BEE7 /* AppDelegate.swift */,
+				4D3084EF67DE7BB18772EE3B /* WebView.swift */,
+			);
+			path = tiara;
+			sourceTree = "<group>";
+		};
+		4D3089E8901670033EC1723C = {
+			isa = PBXGroup;
+			children = (
+				4D3084E9FF3384EB54E3F6E0 /* Products */,
+				4D3088E29D0F1DF2233300DD /* tiara */,
+				4D3080F77EFD24CCAD1F4395 /* tiaraTests */,
+				4D3083D96751BB26114ABD93 /* tiaraUITests */,
+				4D3085E39E168958E6AC02DE /* .gitignore */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D30844BD37F5A82BBDD6F6D /* tiaraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D3085190EBC2C9CE037F0BF /* Build configuration list for PBXNativeTarget "tiaraTests" */;
+			buildPhases = (
+				4D30871E3E39487EACE23B9D /* Sources */,
+				4D30853DAA25A36EB19B376D /* Frameworks */,
+				4D308694C7E6B8143F37D1BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D308EEDBB1D80CBB94E4855 /* PBXTargetDependency */,
+			);
+			name = tiaraTests;
+			productName = tiaraTests;
+			productReference = 4D308203F9F84B2E1089CDBF /* tiaraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4D308A659E915F5707F88B2C /* tiaraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D308631810E170865DD77BC /* Build configuration list for PBXNativeTarget "tiaraUITests" */;
+			buildPhases = (
+				4D3085E173F017D9FB1CE416 /* Sources */,
+				4D308812D95ADF4E05E0B872 /* Frameworks */,
+				4D30808FA1D5312008F37750 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D308DB6197EDCEEFB864FFD /* PBXTargetDependency */,
+			);
+			name = tiaraUITests;
+			productName = tiaraUITests;
+			productReference = 4D308F098465E14B7BA7A643 /* tiaraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		4D308C8B185247E17473CBD7 /* tiara */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D3086623E94C397218CE6E8 /* Build configuration list for PBXNativeTarget "tiara" */;
+			buildPhases = (
+				4D3080D57A990A96A310F984 /* Sources */,
+				4D308852183158B537F177A2 /* Frameworks */,
+				4D308805F146504A58AA1B2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tiara;
+			productName = tiara;
+			productReference = 4D3087C61266539C56254389 /* tiara.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D308DCAA8FF1C06407D2EE7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = 4D308E45C258A979B3771DB8 /* Build configuration list for PBXProject "tiara" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+			);
+			mainGroup = 4D3089E8901670033EC1723C;
+			productRefGroup = 4D3084E9FF3384EB54E3F6E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D308C8B185247E17473CBD7 /* tiara */,
+				4D30844BD37F5A82BBDD6F6D /* tiaraTests */,
+				4D308A659E915F5707F88B2C /* tiaraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D30808FA1D5312008F37750 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D308694C7E6B8143F37D1BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D308805F146504A58AA1B2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D308AA81F0531B029FFFD66 /* Assets.xcassets in Resources */,
+				4D308CE6327BD7085CE24D37 /* Preview Assets.xcassets in Resources */,
+				4D3080724DC819FA453AF488 /* base-static in Resources */,
+				4D30875A4B5FA11867AB848E /* static in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D3080D57A990A96A310F984 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D308F04E7A2B104C1E502D5 /* tiaraApp.swift in Sources */,
+				4D308B87656D2B8E6FABA0A8 /* ContentView.swift in Sources */,
+				4D308CF3D4AF3E2611A4F99B /* EditorView.swift in Sources */,
+				4D308A558E2BE470A7A7A7BF /* TextContainer.swift in Sources */,
+				4D308C4CD8AD2BA882A76596 /* AppDelegate.swift in Sources */,
+				4D308C3950C70666B09A7C02 /* WebView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D3085E173F017D9FB1CE416 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D308A6CCDB7B17C07894B4B /* tiaraUITests.swift in Sources */,
+				4D308DC64D61985714AB2DDD /* tiaraUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D30871E3E39487EACE23B9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D308DEF8AEF7D2A69A35FCB /* tiaraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D308DB6197EDCEEFB864FFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D308C8B185247E17473CBD7 /* tiara */;
+			targetProxy = 4D30823ACE34F24E49A4C841 /* PBXContainerItemProxy */;
+		};
+		4D308EEDBB1D80CBB94E4855 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D308C8B185247E17473CBD7 /* tiara */;
+			targetProxy = 4D30878934E0DB3E2462AACD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4D30805801660BB99CB4AAA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/tiara.app/Contents/MacOS/tiara";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.utsman.tiaraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		4D308143F0D17658AE1D6B20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.utsman.tiaraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = tiara;
+			};
+			name = Debug;
+		};
+		4D3086B4096B3C096D8761F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = /Users/ruangguru/xcode/tiara/tiara/Info.plist;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4D30887706F9C4B0046E7301 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = tiara/tiara.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"tiara/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = /Users/ruangguru/xcode/tiara/tiara/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.utsman.tiara;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4D308925AFA90950FAB6E60F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.utsman.tiaraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = tiara;
+			};
+			name = Release;
+		};
+		4D308B621E5C662BE6ED7904 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/tiara.app/Contents/MacOS/tiara";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.utsman.tiaraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+		4D308BBCA904EF6F93BC07B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = tiara/tiara.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"tiara/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = /Users/ruangguru/xcode/tiara/tiara/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.utsman.tiara;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		4D308CAC09B83D8B3D939315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = /Users/ruangguru/xcode/tiara/tiara/Info.plist;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D3085190EBC2C9CE037F0BF /* Build configuration list for PBXNativeTarget "tiaraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D30805801660BB99CB4AAA9 /* Debug */,
+				4D308B621E5C662BE6ED7904 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D308631810E170865DD77BC /* Build configuration list for PBXNativeTarget "tiaraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D308143F0D17658AE1D6B20 /* Debug */,
+				4D308925AFA90950FAB6E60F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D3086623E94C397218CE6E8 /* Build configuration list for PBXNativeTarget "tiara" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D30887706F9C4B0046E7301 /* Debug */,
+				4D308BBCA904EF6F93BC07B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D308E45C258A979B3771DB8 /* Build configuration list for PBXProject "tiara" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D3086B4096B3C096D8761F5 /* Debug */,
+				4D308CAC09B83D8B3D939315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D308DCAA8FF1C06407D2EE7 /* Project object */;
+}

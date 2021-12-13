@@ -1,0 +1,69 @@
+html, body, #container {
+    background: rgba(189, 14, 14, 0) !important;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.decorationsOverviewRuler {
+    width: 0;
+}
+
+@media (prefers-color-scheme: light) {
+    .mtk1 {
+        color: #2f2f2f !important;
+    }
+    .cursors-layer .cursor {
+        background: #2f2f2f;
+        background: -webkit-linear-gradient(
+                to top,
+                #2f2f2f,
+                #2f2f2f,
+                #d2d2d2
+        );
+        background: linear-gradient(
+                to top,
+                #2f2f2f,
+                #2f2f2f,
+                #2f2f2f
+        );
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    .mtk1 {
+        color: #d2d2d2 !important;
+    }
+    .cursors-layer .cursor {
+        background: #d2d2d2;
+        background: -webkit-linear-gradient(
+                to top,
+                #d2d2d2,
+                #d2d2d2,
+                #d2d2d2
+        );
+        background: linear-gradient(
+                to top,
+                #d2d2d2,
+                #d2d2d2,
+                #d2d2d2
+        );
+    }
+}
+/*
+
+:root {
+    color-scheme: light dark;
+}*/
+
+/*.monaco-editor {*/
+/*    background-color: transparent !important;*/
+/*    background-image: linear-gradient(to bottom, #2a2139 75%, #34294f);*/
+/*    background-size: auto 100vh;*/
+/*    background-position: top;*/
+/*    background-repeat: no-repeat;*/
+/*}*/
